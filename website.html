@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootstrape link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- awsome font cdn -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <!-- carsouel link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Responsive design</title>
+  <link rel="stylesheet" href="./website.css">
+  <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="main-wrapper">
+
+    <div class="top-navbar bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="dropdown">
+              <a class="btn btn-secondary login dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Pak Rupee Rs
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">U.S Dollar($) </a></li>
+                <li><a class="dropdown-item" href="#">Pak Rupee(Rs)</a></li>
+
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-5  d-none d-lg-block login">
+            <ul class="d-flex justify-content-end align-content-center ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="border-start"></li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of top bar  -->
+    <div class="border-top bg-white ">
+      <div class="postion-top mt-2">
+        <div class="container">
+          <div class="d-flex align-item-center">
+            <div class="col-auto col-xl-3 pl-0 pr-3 d-flex align-items-center">
+              <a class="d-block py-3  mr-2 ml-0" href="#">
+                <img src="./images/logo.png" alt="Variety Hub" class="mw-100 h-30px h-md-40px" height="50">
+              </a>
+
+            </div>
+            <!-- search bar start -->
+            <div class="search mt-3 col-md-6">
+              <div class="postion">
+                <div class="inline-block d-md-block mb-0">
+
+                  <form class="d-flex">
+                    <input class="form-control" type="search" placeholder="Your Email Address" aria-label="Search">
+                    <button class="btn  btn-light " type="submit"><i class="fas fa-search"></i> </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- end of search  -->
+
+
+        </div>
+      </div>
+      <!-- lower bar navbar -->
+      <div class=" border-top py-1 bg-white">
+        <div class="container">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Flash Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">All Brand</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!-- end of bar  -->
+    </div>
+    <!-- end of sticky top bar  -->
+    <!-- home-banner -->
+    <div class="home-banner mt-4 pt-4 bg-light">
+      <div class="container">
+        <div class="row ">
+          <div class="col-lg-3">
+            <div class="menu">
+              <ul class="list-group ">
+                <li class=" list-group-item  border-0 categories">Categories</li>
+                <li class="list-group-item border-0 d-flex" style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Woman Clothing & Fashion</a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0" style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Men Clothing & Fashion</a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0" style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Computer & Accessories </a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Automobile & Motorcycle </a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Kids & toy </a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <!-- <img class="text-truncate text-reset  px-0" src="sport.jpg" alt="" width="20"> -->
+                  <a href="#" class="mt-2 mx-2">Sports & outdoor</a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Jewelry & Watches</a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Mobile & Tabs</a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Beauty,Health & Hair </a>
+                  </a>
+                </li>
+                <li class="list-group-item border-0 " style="font-size: 14px;">
+                  <a href="#" class="mt-2 mx-2">Home Decor & Tool </a>
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- end of menu  -->
+
+          <!-- start of col-lg-7 -->
+          <div class="col-lg-7 ">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./img/carousel-1.jpg" class="d-block w-100 " style="height: 423px;" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/carousel-2.jpg" class="d-block w-100" style="height: 423px;" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./img/carousel-3.jpg" class="d-block w-100 " style="height: 423px;" alt="...">
+                </div>
+
+              </div>
+            </div>
+            <!-- end of carsousel  -->
+
+          </div>
+          <!-- end of col-lg-7 -->
+          <div class="col-lg-2 ">
+            <div class=" bg-white rounded  ">
+              <div class=" rounded-top p-3 d-flex align-items-center justify-content-center deal ">
+                <span class="fw-600 fs-16 mr-4 px-1 text-truncate">
+                  Todays Deal
+                </span>
+                <span class="badge badge-primary bg-danger badge-inline">Hot</span>
+              </div>
+            </div>
+            <div class="bg-primary rounded-bottom p-2">
+              <div class=" row row-cols-1 row-cols-lg-1">
+                <div class="col mb-2">
+                  <div class="row ">
+                    <div class="col-xxl">
+                      <div class="img">
+                        <div class="bg-white">
+                          <img class="img-fit"
+                            src="https://varietyhub.pk/public/uploads/all/EDunRkIeDvOyaV597FGOlxZXRA9PmiW86naHnfSB.jpg"
+                            alt="" width="140" style="padding: 10px;">
+                          <div class="col-xxl">
+                            <div class="fs-16 ">
+                              <span class=" px-2 d-block text-primary fw-600">Rs1,450.00</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- place the next col -->
+                <div class="col mb-2">
+                  <div class="row ">
+                    <div class="col-xxl">
+                      <div class="img">
+                        <div class="bg-white">
+                          <img class="img-fit"
+                            src="https://varietyhub.pk/public/uploads/all/EDunRkIeDvOyaV597FGOlxZXRA9PmiW86naHnfSB.jpg"
+                            alt="" width="140" style="padding: 10px;">
+                          <div class="col-xxl">
+                            <div class="fs-16 ">
+                              <span class=" px-2 d-block text-primary fw-600">Rs1,450.00</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end of col -->
+
+              </div>
+            </div>
+          </div>
+          <!-- end of home banner -->
+
+          <!-- start of next banner -->
+          <div class="mb-4 bg-light">
+            <!-- featured  section -->
+            <div class="section-featured mt-4">
+              <div class="mb-4">
+                <div class="container">
+                  <div class="px-2 py-4 px-md-4 py-md-3 bg-white shadow-sm rounded">
+                    <div class="border-bottom">
+                      <h3 class="h5 fw-700 mb-0">
+                        <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Featured
+                          Products</span>
+                      </h3>
+                    </div>
+                    <div class="owl-carousel owl-theme mt-2">
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/tisat1.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images//shoes1.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images//shoes2.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img
+                          src="./images/tisat2.png" 
+                          alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/tisat3.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/shoes2.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/tisat3.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/mix2.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/mix1.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/mix4.png"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+                      <div class="item border border-light rounded hov-shadow-md mt-1 mb-2 has-transition bg-white">
+                        <img src="./images/news_img2.jpg"
+                          d alt="Variety Hub promo" class="img-fluid w-100 lazyloaded" style="height:238px">
+                      </div>
+
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of featured  -->
+            <!-- start of next banner  -->
+            <div class="mb-3 mt-4">
+              <div class="container">
+                <div class="row g-10">
+                  <div class="col-md-6 col-xl">
+                    <div class="mb-3 mb-lg-0">
+                      <a href="" class="d-block text-reset">
+                        <img src="./images/news_img1.jpg"
+                          alt="Variety Hub promo" class="img-fluid w-100 lazyloaded">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-xl">
+                    <div class="mb-3 mb-lg-0">
+                      <a href="" class="d-block text-reset">
+                        <img src="./images/news_img2.jpg"
+                          alt="Variety Hub promo" class="img-fluid w-100 lazyloaded">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-xl">
+                    <div class="mb-3 mb-lg-0">
+                      <a href="" class="d-block text-reset">
+                        <img src="./images/news_img3.jpg"
+                          alt="Variety Hub promo" class="img-fluid w-100 lazyloaded">
+                      </a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end of next banner -->
+              <!-- next section categioes -->
+              <div class="mb-4">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="d-flex mb-3 mt-3 align-items-baseline border-bottom justify-content-between">
+                        <h3 class="h5 fw-700 mb-0">
+                          <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Top 10
+                            Categories</span>
+                        </h3>
+                        <span class="float-end"><a href="#"
+                            class=" btn-categ ms-5 btn btn-primary btn-sm shadow-md">View All Categories</a></span>
+
+                      </div>
+                      <div class="row ">
+                        <div class="col-sm-6 topClass ">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/product-7.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text">
+                                  Woman Clothing & Fashion</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-sm-6  topClass ">
+                          <a href="#"
+                            class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2 justify-content-between"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/product-2.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text">
+                                  Woman Clothing & Fashion</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-sm-6 mt-0 topClass">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/product-1.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text">
+                                  Camera Accessories</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="col-sm-6 mt-0 topClass">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/product-3.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text">
+                                  Lamp and Light</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+
+
+                    </div>
+
+                    <!-- end of col-1 -->
+
+                    <div class="col-lg-6">
+                      <div class="d-flex mb-3 mt-3 align-items-baseline border-bottom justify-content-between">
+                        <h3 class="h5 fw-700 mb-0">
+                          <span class="border-bottom border-primary border-width-2 pb-3 d-inline-block">Top 10
+                            Brands</span>
+                        </h3>
+                        <a href="#" class="ms-4 btn-categ btn btn-primary btn-sm shadow-md">View all Brands</a>
+                      </div>
+
+
+                      <div class="row ">
+                        <div class="col-sm-6 topClass ">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/cat-1.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text1">
+                                  Lunar</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-sm-6  topClass ">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/cat-2.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text1">
+                                  Philips</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-sm-6 mt-0 topClass">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/product-2.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text1">
+                                  Orient</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                        <div class="col-sm-6 mt-0 topClass">
+                          <a href="#" class="bg-white border d-block text-reset rounded p-2 hov-shadow-md mb-2"
+                            style="text-decoration: none;">
+                            <div class="row">
+                              <div class="col-3">
+                                <img
+                                  src="./img/product-1.jpg"
+                                  alt="Women Clothing &amp; Fashion"
+                                  class="img-fluid img h-60px ls-is-cached lazyloaded">
+                              </div>
+                              <div class="col-7">
+                                <div class=" text1">
+                                  Nikon</div>
+                              </div>
+                              <div class="col-2 text-center mt-3">
+                                <i class="fas fa-angle-right" style="color: #183661;"></i>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- end of section -->
+
+              <!-- next section of term and condition -->
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <!-- place here  -->
+      <div class="bg-white">
+        <div class="container">
+          <din class="row">
+            <div class="col-lg-3 col-md-6  border-start border-end">
+              <a class="text-reset  text-center p-4 d-block" href="#" style="text-decoration: none;">
+                <i class="fas fa-file-alt text-primary fa-2x mb-2 "></i>
+                <h4 class="h6">Terms &amp; conditions</h4>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 border-end">
+              <a class="text-reset   text-center p-4 d-block" href="#" style="text-decoration: none;">
+                <i class="fas fa-reply text-primary fa-2x mb-2"></i>
+                <h4 class="h6">Return Policy</h4>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 border-end">
+              <a class="text-reset   text-center p-4 d-block" href="#" style="text-decoration: none; ">
+                <i class="far fa-life-ring text-primary fa-2x mb-2"></i>
+                <h4 class="h6">Terms &amp; conditions</h4>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-6 border-end">
+              <a class="text-reset   text-center p-4 d-block" href="#" style="text-decoration: none;">
+                <i class="fas fa-exclamation-circle text-primary fa-2x mb-2"></i>
+
+                <h4 class="h6">Priacy Policy</h4>
+              </a>
+            </div>
+          </din>
+        </div>
+      </div>
+      <!-- end of  section -->
+      <div class="bg-dark py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="mt-4 ">
+                <a href="#" class="d-block ">
+                  <img class=" ls-is-cached lazyloaded"
+                    src="./images/logo.png" alt="
+                    Variety Hub" height="44">
+                </a>
+                <div class="my-3"></div>
+                <div class="inline-block d-md-block mb-0">
+
+                  <form class="d-flex">
+                    <input class="form-control me-2 " style="width: 50%;" type="search" placeholder="Your Email Address"
+                      aria-label="Search">
+                    <button class="btn  btn-light " type="submit">Subscribe </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="text-contact">
+                <h4 class=" text-uppercase border-bottom  border-grey pb-2 mb-4">
+                  Contact Info
+                </h4>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <span class="d-block media">Address:</span>
+                  <span class="d-block media1">Floor P2 Office#39 Jeff Heights Main Boulevard Gulberg Lahore,
+                    Pakistan.</span>
+                </li>
+                <li class="mb-2">
+                  <span class="d-block media">Phone:</span>
+                  <span class="d-block media1">+92-300-111-5025</span>
+                </li>
+                <li class="mb-2">
+                  <span class="d-block media">Email:</span>
+                  <span class="d-block media1">
+                    <a href="#" class="text-reset">Info@Romofyi.Pk</a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-md-4"></div>
+            <div class="col-md-4 col-lg-2">
+              <div class="text-contact">
+                <h4 class=" text-uppercase border-bottom  border-grey pb-2 mb-4">
+                  My Account
+                </h4>
+              </div>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <span class="d-block media">Login</span>
+                </li>
+                <li class="mb-2">
+                  <span class="d-block media">Order History</span>
+
+                </li>
+                <li class="mb-2">
+                  <span class="d-block media">My Whishlist</span>
+
+                </li>
+                <li class="mb-2">
+                  <span class="d-block media">Track Order</span>
+
+                </li>
+              </ul>
+              <div class="text-contact text-md-left mt-4">
+                <h4 class=" text-uppercase border-bottom border-gray pb-2 mb-4">
+                  Be a Seller
+                </h4>
+                <a href="#" class="btn btn-light btn-sm p-2">
+                  Apply Now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <footer class="pt-3 pb-7 pb-xl-3 bg-black text-light">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="text-center footer-text">
+                © Variety Hub. All Rights Reserve. by Creative Inter Tech
+              </div>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+              <div class="text-center">
+                <img src="./img/payments.png"
+                  height="30" class="mw-100 h-auto" style="max-height: 30px">
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- owl carousel  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+
+      dots: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>

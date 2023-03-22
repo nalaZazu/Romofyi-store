@@ -1,0 +1,152 @@
+/* define the login class  */
+.login li{
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+.login{
+    color: #8f97ab;
+    background-color: white !important;
+    border: white !important;
+}
+.btn-secondary:hover{
+    color: #8f97ab;
+    background-color: white !important;
+    border: white !important;
+}
+.btn:focus:active{
+    box-shadow: none;
+}
+.dropdown-item:active {
+    text-decoration: none;
+    background-color: #e62e04;
+}
+
+.login li a{
+    color: #8f97ab;
+}
+.login li a:hover{
+    color: #8f97ab;
+}
+
+.nav li a{
+    color: #8f97ab;
+}
+.nav li a:hover{
+    color: black;
+}
+
+.categories{
+    background-color: #183661;
+    color: #f2c119;
+    font-size: 20px;
+}
+
+.list-group-item  a{
+    color: black;
+    text-decoration: none;
+}
+/* col-2  */
+.bg-primary{
+    background-color: #f2c119 !important;
+}
+/* carousel  */
+
+  
+  .round {
+
+    background-color:black;
+    border-radius: 50%;
+  }
+  /* next row of 8 col */
+.list {
+    padding-left: 0;
+    list-style: none;
+ 
+}
+.text-truncate{
+    text-align: center;
+}
+.opacity-70 {
+    opacity: 0.7 !important;
+}
+
+.fs-12 {
+    font-size: 0.75rem !important;
+}
+.fw-600 {
+    font-weight: 600 !important;
+}
+.deal {
+    background-color: #183661;
+    color: #f2c119;
+}
+
+/* next carousel */
+
+
+.btn-categ{
+    background-color: #183661;
+    border-style: none;
+    padding: 7px;
+    color: #f2c119;
+}
+ .btn-primary:hover{
+    background-color: #183661!important ;
+}
+/*.btn-primary:focus{
+    box-shadow: none;
+    background-color: #e62e04 !important;
+    border-color: #e62e04 !important;
+
+} */
+.text-primary{
+    color: #183661 !important;
+}
+.btn-primary:active{
+
+    background-color: #e62e04 !important;
+}
+.btn-primary:focus{
+    box-shadow: none !important;
+}
+.border-primary{
+    border-color: #183661 !important;
+}
+
+.h-60px{
+    height: 60px;
+}
+.topClass{
+    padding: .25rem !important;
+}
+.text1{
+    margin-top: 15px;
+}
+.text-contact{
+    color: white;
+}
+.text-contact h4{
+    font-size: 16px;
+}
+
+.list-unstyled{
+    color: white;
+    font-size: 14px;
+}
+.media{
+    opacity: 0.3;
+}
+.media1{
+    opacity: 0.7;
+    
+}
+.btn-light{
+    background-color: #183661 !important;
+    color: white !important;
+    border-style: none;
+}
+.footer-text{
+    color: white;
+    font-size: 14px;
+}
